@@ -6,23 +6,25 @@ https://spring.io/guides/gs/multi-module/
 
 ## Usage and setup (Local machine)
 
-1. Clone simple-boot-build-tools: <br>
+Clone simple-boot-build-tools: <br>
 ```
-git clone https://github.com/heartin/simple-boot-build-tools.git <br>
-cd simple-boot-build-tools <br>
-'./mvnw clean install' or 'mvn clean install' <br>
+git clone https://github.com/heartin/simple-boot-build-tools.git
+cd simple-boot-build-tools
+'./mvnw clean install' or 'mvn clean install'
 cd ..
 ```
-1. Clone simple-starter-parent-java: <br>
+
+Clone simple-starter-parent-java: <br>
 ```
-git clone https://github.com/heartin/simple-boot-parent-java.git <br>
+git clone https://github.com/heartin/simple-boot-parent-java.git
 <cd> simple-boot-parent-java
-'./mvnw clean install' or 'mvn clean install' <br>
+'./mvnw clean install' or 'mvn clean install'
 cd ..
 ```
-1. Clone parent-java-web-jpa: <br>
+
+Clone parent-java-web-jpa: <br>
 ```
-git clone https://github.com/heartin/parent-java-web-jpa.git <br>
+git clone https://github.com/heartin/parent-java-web-jpa.git
 cd parent-java-web-jpa
 './mvnw clean install' or 'mvn clean install'
 cd ..
