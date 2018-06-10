@@ -27,5 +27,4 @@ Clone parent-java-web-jpa: <br>
 git clone https://github.com/heartin/parent-java-web-jpa.git
 cd parent-java-web-jpa
 './mvnw clean install' or 'mvn clean install'
-cd ..
 ```
