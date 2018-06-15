@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cloud.heartin.projects</groupId>
-	<artifactId>parent-java-web-jpa</artifactId>
+	<artifactId>simple-boot-parent-rest-jpa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>parent-java-web-jpa</name>
+	<name>simple-boot-parent-rest-jpa</name>
 	<description>Starter Parent for Java Web Projects with Rest and JPA</description>
 
 	<parent>
@@ -19,6 +19,9 @@
 	</parent>
 
 	<dependencies>
+
+        <!-- Dependencies added or maintained by Spring Boot -->
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
@@ -37,16 +40,16 @@
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
+        <!-- Dependencies not added or maintained by Spring Boot -->
+
+		<!-- Workaround for Java 9 and 10 Users -->
 		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<optional>true</optional>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+			<version>2.3.0</version>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
+
 	</dependencies>
 
 </project>
