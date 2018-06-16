@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cloud.heartin.projects</groupId>
-	<artifactId>simple-boot-parent-rest-jpa</artifactId>
+	<artifactId>simple-boot-parent-rest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>simple-boot-parent-rest-jpa</name>
-	<description>Starter Parent for Java Web Projects with Rest and JPA</description>
+	<name>simple-boot-parent-rest</name>
+	<description>Starter Parent for Java Web Projects with Rest</description>
 
 	<parent>
 		<groupId>cloud.heartin.projects</groupId>
@@ -28,17 +28,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<scope>runtime</scope>
 		</dependency>
 
         <!-- Dependencies not added or maintained by Spring Boot -->
